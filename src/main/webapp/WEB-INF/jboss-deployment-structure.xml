@@ -1,0 +1,10 @@
+<jboss-deployment-structure>
+   <deployment>
+      <dependencies>
+         <module name="org.infinispan" export="TRUE" />
+         <module name="org.infinispan.commons" export="TRUE" />
+         <module name="org.infinispan.client.hotrod" export="TRUE" />
+         <module name="org.jboss.as.clustering.infinispan" export="TRUE" />
+      </dependencies>
+   </deployment>
+</jboss-deployment-structure>
